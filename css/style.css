@@ -13,14 +13,14 @@ main {
 }
 
 
-.head-part {
-    height: 200px;
+.headPart {
+    height: 150px;
     width: 70px;
     border: 10px solid rgb(6, 41, 29);
     border-radius: 15px;
     position: absolute;
-    right: 445px;
-    top: 200px;
+    right: 285px;
+    top: 130px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -29,29 +29,40 @@ main {
     row-gap: 10px;
 }
 
-.circle-red {
-    height: 50px;
-    width: 50px;
-    background-color: rgb(204, 157, 157);
-    border-radius: 50%;
-}
-.circle-yellow {
-    height: 50px;
-    width: 50px;
-    background-color: rgb(204, 157, 157);
-    border-radius: 50%;
-}
-.circle-green {
-    height: 50px;
-    width: 50px;
-    background-color: rgb(204, 157, 157);
+#circleRed,#circleGreen,#circleYellow {
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 }
 
-.leg-part {
-    height: 490px;
+.colorDefault {
+    background-color: rgb(204, 157, 157);
+
+}
+
+
+.legPart {
+    height: 250px;
     border: 10px solid rgb(6, 41, 29);
     position: absolute;
     bottom: 40px;
-    right: 480px;
+    right:320px;
 }
+
+.green {
+    background-color: green;
+    box-shadow: 0px 0px 10px green,
+    0px 0px 20px;
+}
+.yellow {
+    background-color: yellow;
+    box-shadow: 0px 0px 10px yellow,
+    0px 0px 20px;
+}
+.red {
+    background-color: red;
+    box-shadow: 0px 0px 10px red,
+    0px 0px 20px;
+}
+
+
